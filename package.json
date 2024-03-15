@@ -1,6 +1,6 @@
 {
   "name": "@ciffi-js/releaser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node based release version manager  ",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node ./index.js"
+    "postinstall": "node ./index.js"
   },
   "keywords": [],
   "author": {
