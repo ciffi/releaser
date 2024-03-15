@@ -1,5 +1,5 @@
 {
-  "name": "releaser",
+  "name": "@ciffi-js/releaser",
   "version": "1.0.0",
   "description": "Node based release version manager  ",
   "main": "index.js",

@@ -4,9 +4,9 @@ Node based release version manager
 
 ### install
 
-- npm: `npm i -D ciffi/releaser`
+- npm: `npm i -D @ciffi-js/releaser`
 
-- yarn: `yarn add -dev ciffi/releaser`
+- yarn: `yarn add -dev @ciffi-js/releaser`
 
 ### generate version
 
