@@ -1,0 +1,26 @@
+{
+  "name": "releaser",
+  "version": "1.0.0",
+  "description": "Node based release version manager  ",
+  "main": "index.js",
+  "bin": {
+    "releaser": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node ./index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "ciffi",
+    "url": "https://github.com/ciffi"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@commitlint/cli": "^19.1.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "auto-changelog": "^2.2.1",
+    "husky": "^9.0.11"
+  }
+}
+
