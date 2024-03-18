@@ -8,9 +8,9 @@ Node based release version manager
 
 - yarn: `yarn add -dev @ciffi-js/releaser`
 
-### generate version
+### generate new release
 
-- npm: `npm version`
+- npm: `npm version semver|patch|minor|major`
 
 - yarn: `yarn version`
 
