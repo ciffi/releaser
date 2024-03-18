@@ -10,7 +10,7 @@ const packageJson = JSON.parse(fs.readFileSync(packageJsonFile, "utf8"));
 
 if (!fs.existsSync(huskyHiddenPath)) {
   exec(`npx husky init`, { cwd: rootPath }, () => {
-    exec(`echo yarn commitlint --edit $1 > ${huskyHiddenPath}/commit-msg`, {
+    exec(`echo npm commitlint --edit $1 > ${huskyHiddenPath}/commit-msg`, {
       cwd: rootPath,
     });
     exec(`echo > ${huskyHiddenPath}/pre-commit`, { cwd: rootPath });
