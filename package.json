@@ -1,6 +1,6 @@
 {
   "name": "@ciffi-js/releaser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node based release version manager  ",
   "main": "index.js",
   "bin": {
@@ -17,10 +17,10 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@commitlint/cli": "^19.1.0",
-    "@commitlint/config-conventional": "^19.1.0",
-    "auto-changelog": "^2.2.1",
-    "husky": "^9.0.11"
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "auto-changelog": "2.5.0",
+    "husky": "9.1.6"
   }
 }
 
