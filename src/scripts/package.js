@@ -34,6 +34,7 @@ function updatePackageJson() {
             ...packageJson,
             scripts: {
                 ...packageJson.scripts,
+                lint: "prettier --write . && tsc --noEmit -p tsconfig.json && next lint --fix",
                 version: "auto-changelog -p && git add CHANGELOG.md",
                 "push-tags": "git push --follow-tags",
             },
