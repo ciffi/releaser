@@ -1,8 +1,38 @@
+# File di sistema
 .DS_Store
+
+# Editor
 .vscode
 .idea
+
+# Configurazione
 .nvmrc
-.npmignore
+
+# Git
 .git
 .gitignore
+
+# Node.js
 node_modules
+npm-debug.log
+yarn-error.log
+
+# File di build
+build.js
+
+# File di sviluppo
+src/scripts/
+src/index.js
+src/generate-sample-data.js
+src/sample-files/
+
+# Assicurati che questi file siano inclusi
+!src/sample-files-data.js
+
+# Test
+test/
+
+# Altri file
+*.tgz
+*.log
+.github/
